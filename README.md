@@ -1,5 +1,5 @@
 <h1>General Description:</h1>
-This project is a ML/NLP library to analyze tweets and build predictive models. The predictive models are built to help election/ad/marketing campaigns to dig into social media conversations in order to get insights for making intelligent decisions.
+This project is a ML/NLP library in Java to analyze tweets and build predictive models. The predictive models are built to help election/ad/marketing campaigns to dig into social media conversations in order to get insights for making intelligent decisions.
 
 The project consists of four main packages and a resource directory:
 <ol>
