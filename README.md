@@ -14,9 +14,9 @@ The project consists of four main packages and a resource directory:
 <h3>Algorithms Package:</h3>
 <ol>
 <li><b>LDA Algorithm:<b> an implentation for Latent Dirichlet Allocation algorithm which is used for topic modeling.
-http://en.wikipedia.org/wiki/Latent_Dirichlet_allocation</li>
+<a href="http://en.wikipedia.org/wiki/Latent_Dirichlet_allocation"> Latent Dirichlet Allocation algorithm</a></li>
 <li><b>NaiveBayes Classifier:</b> a modified version of Naive Bayes classifier used for sentiment analysis.
-http://en.wikipedia.org/wiki/Naive_Bayes_classifier</li>
+<a href="http://en.wikipedia.org/wiki/Naive_Bayes_classifier">Naive Bayes classifier</a></li>
 <li><b>TextAnalysis:</b> a class for performing simple text analysis like computing word frequencies.</li>
 <li><b>TweetsStatistics:</b> provides functionalities for computing basic statistics for tweets.</li>
 </ol>
