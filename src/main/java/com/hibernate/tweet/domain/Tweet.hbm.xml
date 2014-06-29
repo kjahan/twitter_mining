@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="com.hibernate.tweet.domain">
+
+    <class name="Tweet" table="tweets">
+        <id name="id" column="id">
+            <generator class="native"/>
+        </id>
+        
+        <property name="ts" type="timestamp" column="timestamp"/>
+        <property name="source" type = "string"/>
+        <property name="author" type = "string"/>
+        <property name="lat" type = "double"/>
+        <property name="lon" type = "double" column="lng"/>
+        <property name="text" type = "text"/>
+    </class>
+
+</hibernate-mapping>
