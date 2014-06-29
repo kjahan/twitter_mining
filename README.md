@@ -23,32 +23,32 @@ http://en.wikipedia.org/wiki/Naive_Bayes_classifier</li>
 
 <h3>Twitter Package:</h3>
 <ol>
-Tweet: a representative class for tweets.
-TweetDate: a class for dealing with date range. This allows us to analyze tweets in a give time range.
-TweetsConstants: a class for constants and configuration data.
-TwitterDataSource: an interface designed to deal with different persistent layers.
-TwitterFileDataSource: an implementation of TwitterDataSource interface when persistent layer is File.
-TwitterMySqlDataSource: an implementation of TwitterDataSource interface when persistent layer is MySql DB.
+<li>Tweet: a representative class for tweets.</li>
+<li>TweetDate: a class for dealing with date range. This allows us to analyze tweets in a give time range.</li>
+<li>TweetsConstants: a class for constants and configuration data.</li>
+<li>TwitterDataSource: an interface designed to deal with different persistent layers.</li>
+<li>TwitterFileDataSource: an implementation of TwitterDataSource interface when persistent layer is File.</li>
+<li>TwitterMySqlDataSource: an implementation of TwitterDataSource interface when persistent layer is MySql DB.</li>
 </ol>
 
 <h3>Runanalysis Package:</h3>
 <ol>
-RunBayes: runs sentiment analysis on tweets by using NaiveBayes class.
-RunLDA: runs topic modeling on tweets using LDA class.
-RunStatistics: runs basic statistics on tweets using TweetsStatistics class.
-RunTextAnalysis: runs text analysis on tweets using TextAnalysis class.
-ThreadPool & WorkerThread: a multi-threaded code for running analysis.
+<li>RunBayes: runs sentiment analysis on tweets by using NaiveBayes class.</li>
+<li>RunLDA: runs topic modeling on tweets using LDA class.</li>
+<li>RunStatistics: runs basic statistics on tweets using TweetsStatistics class.</li>
+<li>RunTextAnalysis: runs text analysis on tweets using TextAnalysis class.</li>
+<li>ThreadPool & WorkerThread: a multi-threaded code for running analysis.</li>
 </ol>
 
 <h3>Utilities Package:</h3>
 <ol>
-DayIntervals: a class which reads day interval files and returns a list of day pairs.
-GenerateCsv: a class to generate CSV file for post-processing and visualization steps.
-MapUtil: a class for printing a TreeMap data.
-Pair: a class for defining pair objects.
-SentimentLabel: sentiment labels.
-StopWords: a class for building stop words for ML/NLP analysis.
-TimeZone: time zone class.
-TweetUtils: a helper class which has functionalities for cleaning and pre-process tweets.
-ValueComparator: a comparator class.
+<li>DayIntervals: a class which reads day interval files and returns a list of day pairs.</li>
+<li>GenerateCsv: a class to generate CSV file for post-processing and visualization steps.</li>
+<li>MapUtil: a class for printing a TreeMap data.</li>
+<li>Pair: a class for defining pair objects.</li>
+<li>SentimentLabel: sentiment labels.</li>
+<li>StopWords: a class for building stop words for ML/NLP analysis.</li>
+<li>TimeZone: time zone class.</li>
+<li>TweetUtils: a helper class which has functionalities for cleaning and pre-process tweets.</li>
+<li>ValueComparator: a comparator class.</li>
 </ol>
