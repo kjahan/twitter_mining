@@ -1,16 +1,15 @@
-General Description:
+<h1>General Description:</h1>
 This project is a ML/NLP library to analyze tweets and build predictive models. The predictive models are built to help election/ad/marketing campaigns to dig into social media conversations in order to get insights for making intelligent decisions.
 
-The project consists of four packages:
-I) Algorithms package contains implementation of all ml/nlp algorithms.
-
-II) Twitter package is designed to wrap twitter data regradless of the persistent layer that we use to store/retrieve tweets.
-
-III) Runanalysis package is an interface for runninf different ml/nlp algorithms.
-
-IV) Utilities package is developed to provide a collection of helper classes common across different analysis.
-
-V) Resources directory includes different data files which is used for tweets analysis like stop words, training data for sentiment analysis and so on.
+The project consists of four main packages:
+<ol>
+<li><b>Algorithms</b> package contains implementation of all ml/nlp algorithms.</li>
+<li><b>Twitter</b> package is designed to wrap twitter data regradless of the persistent layer that we use to store/retrieve tweets.</li>
+<li>Runanalysis package is an interface for runninf different ml/nlp algorithms.</li>
+<li>Utilities package is developed to provide a collection of helper classes common across different analysis.</li>
+</ol>
+ 
+Resources directory includes different data files which is used for tweets analysis like stop words, training data for sentiment analysis and so on.
 
 Packages Details:
 I) Algorithms Package:
