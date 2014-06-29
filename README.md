@@ -13,42 +13,42 @@ The project consists of four main packages and a resource directory:
 <h2>Packages Details:</h2>
 <h3>Algorithms Package:</h3>
 <ol>
-<li>LDA Algorithm: an implentation for Latent Dirichlet Allocation algorithm which is used for topic modeling.
+<li><b>LDA Algorithm:<b> an implentation for Latent Dirichlet Allocation algorithm which is used for topic modeling.
 http://en.wikipedia.org/wiki/Latent_Dirichlet_allocation</li>
-<li>NaiveBayes Classifier: a modified version of Naive Bayes classifier used for sentiment analysis.
+<li><b>NaiveBayes Classifier:</b> a modified version of Naive Bayes classifier used for sentiment analysis.
 http://en.wikipedia.org/wiki/Naive_Bayes_classifier</li>
-<li>TextAnalysis: a class for performing simple text analysis like computing word frequencies.</li>
-<li>TweetsStatistics class: provides functionalities for computing basic statistics for tweets.</li>
+<li><b>TextAnalysis:</b> a class for performing simple text analysis like computing word frequencies.</li>
+<li><b>TweetsStatistics:</b> provides functionalities for computing basic statistics for tweets.</li>
 </ol>
 
 <h3>Twitter Package:</h3>
 <ol>
-<li>Tweet: a representative class for tweets.</li>
-<li>TweetDate: a class for dealing with date range. This allows us to analyze tweets in a give time range.</li>
-<li>TweetsConstants: a class for constants and configuration data.</li>
-<li>TwitterDataSource: an interface designed to deal with different persistent layers.</li>
-<li>TwitterFileDataSource: an implementation of TwitterDataSource interface when persistent layer is File.</li>
-<li>TwitterMySqlDataSource: an implementation of TwitterDataSource interface when persistent layer is MySql DB.</li>
+<li><b>Tweet:</b> a representative class for tweets.</li>
+<li><b>TweetDate:</b> a class for dealing with date range. This allows us to analyze tweets in a give time range.</li>
+<li><b>TweetsConstants:</b> a class for constants and configuration data.</li>
+<li><b>TwitterDataSource:</b> an interface designed to deal with different persistent layers.</li>
+<li><b>TwitterFileDataSource:</b> an implementation of TwitterDataSource interface when persistent layer is File.</li>
+<li><b>TwitterMySqlDataSource:</b> an implementation of TwitterDataSource interface when persistent layer is MySql DB.</li>
 </ol>
 
 <h3>Runanalysis Package:</h3>
 <ol>
-<li>RunBayes: runs sentiment analysis on tweets by using NaiveBayes class.</li>
-<li>RunLDA: runs topic modeling on tweets using LDA class.</li>
-<li>RunStatistics: runs basic statistics on tweets using TweetsStatistics class.</li>
-<li>RunTextAnalysis: runs text analysis on tweets using TextAnalysis class.</li>
-<li>ThreadPool & WorkerThread: a multi-threaded code for running analysis.</li>
+<li><b>RunBayes:</b> runs sentiment analysis on tweets by using NaiveBayes class.</li>
+<li><b>RunLDA:</b> runs topic modeling on tweets using LDA class.</li>
+<li><b>RunStatistics:</b> runs basic statistics on tweets using TweetsStatistics class.</li>
+<li><b>RunTextAnalysis:</b> runs text analysis on tweets using TextAnalysis class.</li>
+<li><b>ThreadPool & WorkerThread:</b> a multi-threaded code for running analysis.</li>
 </ol>
 
 <h3>Utilities Package:</h3>
 <ol>
-<li>DayIntervals: a class which reads day interval files and returns a list of day pairs.</li>
-<li>GenerateCsv: a class to generate CSV file for post-processing and visualization steps.</li>
-<li>MapUtil: a class for printing a TreeMap data.</li>
-<li>Pair: a class for defining pair objects.</li>
-<li>SentimentLabel: sentiment labels.</li>
-<li>StopWords: a class for building stop words for ML/NLP analysis.</li>
-<li>TimeZone: time zone class.</li>
-<li>TweetUtils: a helper class which has functionalities for cleaning and pre-process tweets.</li>
-<li>ValueComparator: a comparator class.</li>
+<li><b>DayIntervals:</b> a class which reads day interval files and returns a list of day pairs.</li>
+<li><b>GenerateCsv:</b> a class to generate CSV file for post-processing and visualization steps.</li>
+<li><b>MapUtil:</b> a class for printing a TreeMap data.</li>
+<li><b>Pair:</b> a class for defining pair objects.</li>
+<li><b>SentimentLabel:</b> sentiment labels.</li>
+<li><b>StopWords:</b> a class for building stop words for ML/NLP analysis.</li>
+<li><b>TimeZone:</b> time zone class.</li>
+<li><b>TweetUtils:</b> a helper class which has functionalities for cleaning and pre-process tweets.</li>
+<li><b>ValueComparator:</b> a comparator class.</li>
 </ol>
