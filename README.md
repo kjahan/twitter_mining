@@ -55,8 +55,8 @@ The project consists of four main packages and a resource directory:
 This library requires your data is stored in MySql database "politics" in table "tweets". Schema of the table is shown below:
 <table style="width:300px">
 <tr>
-  <td>Field</td>
-  <td>Type</td>
+  <td><b>Field</b></td>
+  <td><b>Type</b></td>
 </tr>
 <tr>
   <td>id</td>
@@ -87,11 +87,11 @@ This library requires your data is stored in MySql database "politics" in table 
   <td>varchar(140)</td>
 </tr>
 <tr>
-  <td>created\_at</td>
+  <td>created_at</td>
   <td>datetime</td>
 </tr>
 </table>
 </p>
 <p>
-If you have any question about the code, contact me at "kDOTjahanbakhshATgmailDOTcom"
+If you have any question about this project, you can reach me at "kDOTjahanbakhshATgmailDOTcom"
 </p>
