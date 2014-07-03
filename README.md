@@ -93,5 +93,5 @@ This library requires your data is stored in MySql database "politics" in table 
 </table>
 </p>
 <p>
-If you have any question about this project, you can reach me at <b>kDOTjahanbakhshATgmailDOTcom</b>.
+If you have any question about this project, you can reach me at "<b>k DOT jahanbakhsh AT gmail DOT com</b>.
 </p>
