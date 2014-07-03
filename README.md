@@ -93,7 +93,5 @@ This library requires your data is stored in MySql database "politics" in table 
 </table>
 </p>
 <p>
-If you'd like to read more about our motivations for this project, you can check <a href="http://www.kazemjahanbakhsh.com/codes/election.html">Barack Obama or Mitt Romney: that's the question!</a> web page.<br/>
-You can also check our published paper using this ML/NLP framework here: <a href="">The Predictive Power of Social Media: On the Predictability of U.S. Presidential Elections using Twitter</a>.<br/>
-If you have any question about this project, you can reach me at <b>k DOT jahanbakhsh AT gmail DOT com</b>.
+If you'd like to read more about our motivations for this project, you can check <a href="http://www.kazemjahanbakhsh.com/codes/election.html">Barack Obama or Mitt Romney: that's the question!</a> web page. You can also check our published paper using this ML/NLP framework here: <a href="">The Predictive Power of Social Media: On the Predictability of U.S. Presidential Elections using Twitter</a>. If you have any technical questions about this project, you can reach me at <b>k DOT jahanbakhsh AT gmail DOT com</b>.
 </p>
