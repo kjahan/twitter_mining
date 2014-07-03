@@ -1,37 +1,37 @@
 <h1>General Description:</h1>
-This project is a ML/NLP library in Java to analyze tweets and build predictive models. The predictive models are built to help election/ad/marketing campaigns to dig into social media conversations in order to get insights for making intelligent decisions.
+This project is a ML/NLP library in Java for analyzing tweets and building predictive models. The predictive models are built to help election/ad/marketing campaigns dig into social media conversations (public opinions) in order to get insights for making intelligent decisions.
 
 The project consists of four main packages and a resource directory:
 <ol>
-<li><b>Algorithms</b> package contains implementation of all ml/nlp algorithms.</li>
-<li><b>Twitter</b> package is designed to wrap twitter data regradless of the persistent layer that we use to store/retrieve tweets.</li>
-<li><b>Runanalysis</b> package is an interface for runninf different ml/nlp algorithms.</li>
-<li><b>Utilities</b> package is developed to provide a collection of helper classes common across different analysis.</li>
-<li><b>Resources</b> directory includes different data files which is used for tweets analysis like stop words, training data for sentiment analysis and so on.</li>
+<li><b>Algorithms</b> package contains implementations of a few ml/nlp algorithms for running text analysis on tweets contents.</li>
+<li><b>Twitter</b> package is designed to wrap twitter data regradless of the persistent layer that one uses to store/retrieve tweets.</li>
+<li><b>Runanalysis</b> package is the interface for running ml/nlp algorithms.</li>
+<li><b>Utilities</b> package is developed to provide a collection of helper classes for different analysis.</li>
+<li><b>Resources</b> directory includes a few data sources used for tweets analysis such as stop words, training data for sentiment analysis and so on.</li>
 </ol>
 
 <h2>Packages Details:</h2>
 <h3>Algorithms Package:</h3>
 <ol>
-<li><b>LDA Algorithm:</b> an implentation for <a href="http://en.wikipedia.org/wiki/Latent_Dirichlet_allocation"> Latent Dirichlet Allocation algorithm</a> used for topic modeling.</li>
-<li><b>NaiveBayes Classifier:</b> a modified version of <a href="http://en.wikipedia.org/wiki/Naive_Bayes_classifier">Naive Bayes classifier</a> used for sentiment analysis.</li>
-<li><b>TextAnalysis:</b> a class for performing simple text analysis like computing word frequencies.</li>
-<li><b>TweetsStatistics:</b> provides functionalities for computing basic statistics for tweets.</li>
+<li><b>LDA Algorithm:</b> an implentation of <a href="http://en.wikipedia.org/wiki/Latent_Dirichlet_allocation"> Latent Dirichlet Allocation algorithm</a> used for topic modeling.</li>
+<li><b>NaiveBayes Classifier:</b> a customized version of <a href="http://en.wikipedia.org/wiki/Naive_Bayes_classifier">Naive Bayes classifier</a> for running sentiment analysis on tweets.</li>
+<li><b>TextAnalysis:</b> a class for performing various text analysis such as computing word frequencies.</li>
+<li><b>TweetsStatistics:</b> provides functionalities for computing basic statistics from tweets.</li>
 </ol>
 
 <h3>Twitter Package:</h3>
 <ol>
 <li><b>Tweet:</b> a representative class for tweets.</li>
 <li><b>TweetDate:</b> a class for dealing with date range. This allows us to analyze tweets in a give time range.</li>
-<li><b>TweetsConstants:</b> a class for constants and configuration data.</li>
+<li><b>TweetsConstants:</b> a class for constants and configuration parameters.</li>
 <li><b>TwitterDataSource:</b> an interface designed to deal with different persistent layers.</li>
-<li><b>TwitterFileDataSource:</b> an implementation of TwitterDataSource interface when persistent layer is File.</li>
+<li><b>TwitterFileDataSource:</b> an implementation of TwitterDataSource interface when persistent layer is raw File.</li>
 <li><b>TwitterMySqlDataSource:</b> an implementation of TwitterDataSource interface when persistent layer is MySql DB.</li>
 </ol>
 
 <h3>Runanalysis Package:</h3>
 <ol>
-<li><b>RunBayes:</b> runs sentiment analysis on tweets by using NaiveBayes class.</li>
+<li><b>RunBayes:</b> runs sentiment analysis on tweets using NaiveBayes class.</li>
 <li><b>RunLDA:</b> runs topic modeling on tweets using LDA class.</li>
 <li><b>RunStatistics:</b> runs basic statistics on tweets using TweetsStatistics class.</li>
 <li><b>RunTextAnalysis:</b> runs text analysis on tweets using TextAnalysis class.</li>
@@ -40,13 +40,58 @@ The project consists of four main packages and a resource directory:
 
 <h3>Utilities Package:</h3>
 <ol>
-<li><b>DayIntervals:</b> a class which reads day interval files and returns a list of day pairs.</li>
-<li><b>GenerateCsv:</b> a class to generate CSV file for post-processing and visualization steps.</li>
+<li><b>DayIntervals:</b> a class for reading day interval files and generating a list of day pairs.</li>
+<li><b>GenerateCsv:</b> a class for generating a CSV file for post-processing and visualization steps.</li>
 <li><b>MapUtil:</b> a class for printing a TreeMap data.</li>
 <li><b>Pair:</b> a class for defining pair objects.</li>
 <li><b>SentimentLabel:</b> sentiment labels.</li>
-<li><b>StopWords:</b> a class for building stop words for ML/NLP analysis.</li>
+<li><b>StopWords:</b> a class for building stop words for NLP analysis.</li>
 <li><b>TimeZone:</b> time zone class.</li>
-<li><b>TweetUtils:</b> a helper class which has functionalities for cleaning and pre-process tweets.</li>
+<li><b>TweetUtils:</b> a helper class which has functionalities for cleaning/normalizing tweets.</li>
 <li><b>ValueComparator:</b> a comparator class.</li>
 </ol>
+<p>
+<h3>Tweets Data Schema:</h3>
+This library requires your data is stored in MySql database "politics" in table "tweets". Schema of the table is shown below:
+<table style="width:300px">
+<tr>
+  <td>Field</td>
+  <td>Type</td>
+</tr>
+<tr>
+  <td>id</td>
+  <td>int(10) unsigned, PRI</td> 
+</tr>
+<tr>
+  <td>timestamp</td>
+  <td>int(10) unsigned</td>
+</tr>
+<tr>
+  <td>source</td>
+  <td>varchar(40)</td>
+</tr>
+<tr>
+  <td>author</td>
+  <td>varchar(20)</td>
+</tr>
+<tr>
+  <td>lat</td>
+  <td>decimal(10,8)</td>
+</tr>
+<tr>
+  <td>lng</td>
+  <td>decimal(11,8)</td>
+</tr>
+<tr>
+  <td>text</td>
+  <td>varchar(140)</td>
+</tr>
+<tr>
+  <td>created\_at</td>
+  <td>datetime</td>
+</tr>
+</table>
+</p>
+<p>
+If you have any question about the code, contact me at "kDOTjahanbakhshATgmailDOTcom"
+</p>
