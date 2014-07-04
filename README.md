@@ -52,7 +52,7 @@ The project consists of four main packages and a resource directory:
 </ol>
 <p>
 <h3>Tweets Data Schema:</h3>
-This library requires your data is stored in MySql database "politics" in table "tweets". Schema of the table is shown below:
+This library requires your twitter data to be stored in a MySql database/table (i.e. politics/tweets). Schema of tweets table is shown below:
 <table style="width:300px">
 <tr>
   <td><b>Field</b></td>
@@ -93,5 +93,5 @@ This library requires your data is stored in MySql database "politics" in table 
 </table>
 </p>
 <p>
-If you'd like to read more about this project, you should check <a href="http://www.kazemjahanbakhsh.com/codes/election.html">Barack Obama or Mitt Romney: that's the question!</a> web page. You can also check our published paper using this ML/NLP framework here: <a href="">The Predictive Power of Social Media: On the Predictability of U.S. Presidential Elections using Twitter</a>. If you have any technical questions about this project, you can reach me at <b>k DOT jahanbakhsh AT gmail DOT com</b>.
-</p>
+If you'd like to read more about this project, you should check <a href="http://www.kazemjahanbakhsh.com/codes/election.html">Barack Obama or Mitt Romney: that's the question!</a> web page. You can also check our published paper using this ML/NLP framework here: <a href="">The Predictive Power of Social Media: On the Predictability of U.S. Presidential Elections using Twitter</a>.<br />
+If you have any technical questions about this project, you can reach me at <b>k DOT jahanbakhsh AT gmail DOT com</b>.</p>
