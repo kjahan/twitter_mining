@@ -93,5 +93,28 @@ This library requires your twitter data to be stored in a MySql database/table (
 </table>
 </p>
 <p>
-If you'd like to read more about this project, you should check <a href="http://www.kazemjahanbakhsh.com/codes/election.html">Barack Obama or Mitt Romney: that's the question!</a> web page. You can also check our published paper using this ML/NLP framework here: <a href="">The Predictive Power of Social Media: On the Predictability of U.S. Presidential Elections using Twitter</a>.<br /><br />
+If you'd like to read more about this project, you should check <a href="http://www.kazemjahanbakhsh.com/codes/election.html">Barack Obama or Mitt Romney: that's the question!</a> web page. You can also check our published paper using this ML/NLP framework here: <a href="http://arxiv-web3.library.cornell.edu/abs/1407.0622">The Predictive Power of Social Media: On the Predictability of U.S. Presidential Elections using Twitter</a>.<br /><br />
+## Licence
+
+    Copyright (c) 2013 Black Square Media Ltd. All rights reserved.
+    (The MIT License)
+
+    Permission is hereby granted, free of charge, to any person obtaining
+    a copy of this software and associated documentation files (the
+    'Software'), to deal in the Software without restriction, including
+    without limitation the rights to use, copy, modify, merge, publish,
+    distribute, sublicense, and/or sell copies of the Software, and to
+    permit persons to whom the Software is furnished to do so, subject to
+    the following conditions:
+
+    The above copyright notice and this permission notice shall be
+    included in all copies or substantial portions of the Software.
+
+    THE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND,
+    EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+    MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+    IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+    CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+    TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+    SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 If you have any technical questions about this project, you can reach us at <b>k DOT jahanbakhsh AT gmail DOT com</b>.</p>
