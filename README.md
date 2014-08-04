@@ -1,7 +1,6 @@
 Twitter Mining Project
 ======================
 
-<h1>General Description:</h1>
 This project is a ML/NLP library in Java for analyzing tweets and building predictive models. The predictive models are built to help election/ad/marketing campaigns dig into social media conversations (public opinions) in order to get insights for making intelligent decisions.
 
 The project consists of four main packages and a resource directory:
@@ -53,8 +52,8 @@ The project consists of four main packages and a resource directory:
 <li><b>TweetUtils:</b> a helper class which has functionalities for cleaning/normalizing tweets.</li>
 <li><b>ValueComparator:</b> a comparator class.</li>
 </ol>
-<p>
 <h3>Tweets Data Schema:</h3>
+<p>
 This library requires your twitter data to be stored in a MySql database/table (i.e. politics/tweets). Schema of tweets table is shown below:
 <table style="width:300px">
 <tr>
@@ -90,14 +89,15 @@ This library requires your twitter data to be stored in a MySql database/table (
   <td>varchar(140)</td>
 </tr>
 <tr>
-  <td>created_at</td>
+  <td>created at</td>
   <td>datetime</td>
 </tr>
 </table>
 </p>
+
 <p>
 If you'd like to read more about this project, you should check <a href="http://www.kazemjahanbakhsh.com/codes/election.html">Barack Obama or Mitt Romney: that's the question!</a> web page. You can also check our published paper using this ML/NLP framework here: <a href="http://arxiv-web3.library.cornell.edu/abs/1407.0622">The Predictive Power of Social Media: On the Predictability of U.S. Presidential Elections using Twitter</a>.</p>
-#
+
 ## Licence
 
     Copyright (c) 2013 Black Square Media Ltd. All rights reserved.
